@@ -7,10 +7,13 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        -- ruby defaults
+        -- ruby
         "ruby-lsp",
         "standardrb",
         "erb-formatter",
+
+        -- javascript
+        "standardjs",
       },
     },
   },

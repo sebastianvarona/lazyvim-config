@@ -4,6 +4,7 @@ return {
     formatters_by_ft = {
       ruby = { "standardrb" },
       eruby = { "erb-formatter" },
+      javascript = { "standardjs" },
     },
   },
 }
