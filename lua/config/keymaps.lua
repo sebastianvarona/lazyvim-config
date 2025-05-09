@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("i", "jj", "<Esc>", { silent = true })
+vim.keymap.set("i", "jk", "<Esc>", { silent = true })
